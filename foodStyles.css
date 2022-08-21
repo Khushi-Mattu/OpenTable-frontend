@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(255,248,235);
+}
+
+.imgs{
+    border-radius: 7px;
+}
+
+.location{
+    display:flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin-bottom:6px;
+}
+
+.mon{
+    display:flex;
+    align-items: center;
+}
+
+.dish{
+    font-family: 'PT Serif', serif;
+    margin-bottom:5px;
+}
+
+.reserve{
+    color:red;
+    font-family: 'PT Serif', serif;
+    margin-top:6px;
+}
+
+.loc{
+    margin-left:8px;
+    font-family: 'PT Serif', serif;
+    
+    
+}
+
+.dollar{
+    margin-left:3px;
+    margin-right:8px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.food{
+    margin-left:5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.items{
+    margin-left:50px;
+    margin-right:90px;
+    margin-top:30px;
+}
