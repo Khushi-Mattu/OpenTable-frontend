@@ -13,6 +13,13 @@ body{
     margin-bottom:6px;
 }
 
+.location2{
+    display:flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    
+}
+
 .mon{
     display:flex;
     align-items: center;
@@ -36,6 +43,10 @@ body{
     
 }
 
+.loc2{
+    margin-left:8px;
+}
+
 .dollar{
     margin-left:3px;
     margin-right:8px;
@@ -52,3 +63,133 @@ body{
     margin-right:90px;
     margin-top:30px;
 }
+
+.find{
+    background-color: rgb(20, 8, 61);
+    width:45%;
+    height:350px;
+    margin-left:20px;
+    position:relative;
+}
+
+.fin{
+    font-family: "Merriweather", serif;
+  color: white;
+  margin-top: 70px;
+  margin-left: 50px;
+  font-size: 30px;
+  padding:20px;
+  
+  
+}
+
+
+.two{
+    display:block;
+}
+
+
+.bn{
+    border: 1px solid white;
+            background-color: transparent;
+            height: 80px;
+            width: 200px;
+            color:white;
+            font-size:18px;
+            margin-left:50px;
+            border-radius:7px
+}
+
+.download{
+    background-color:rgb(218,55,67);
+    width:45%;
+    margin-left:20px;
+    height:150px;
+    position:relative;
+}
+
+.text{
+    color: white;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-left:60px;
+  padding:20px;
+  font-size:18px;
+}
+
+.dwn{
+    font-family: 'PT Serif', serif;
+    color:white;
+    margin-left:230px;
+    align-items: center;
+  justify-content: center;
+  margin-bottom:20px;
+  margin-top:20px;
+  font-size:20px;
+}
+
+.footer{
+    background-color: rgb(255,248,235);
+    margin-left:50px;
+
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(218,55,67);
+    border-radius: 50%;
+  }
+  
+  .dot2 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(218,55,67);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .i-dot {
+      border-radius: 50%;
+      background-color:rgb(255,248,235);
+      width: 50%;
+      height: 50%;
+  }
+
+  .open {
+    font-family: 'PT Serif', serif;
+    color: rgb(218,55,67);
+    font-size: 30px;
+    margin-left: 4px;
+  }
+
+  .heading {
+
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn-btn{
+    background-color:black;
+    width:140px;
+    color:white;
+    border-radius:7px;
+    height:60px;
+    margin-left:10px;
+  }
+
+  .update{
+    font-weight:bold;
+  }
