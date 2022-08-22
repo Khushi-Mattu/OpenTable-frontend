@@ -67,15 +67,16 @@ body{
 .find{
     background-color: rgb(20, 8, 61);
     width:45%;
-    height:350px;
+    height:400px;
     margin-left:20px;
-    position:relative;
+    gap:0px;
+    padding:0px;
 }
 
 .fin{
     font-family: "Merriweather", serif;
   color: white;
-  margin-top: 70px;
+  margin-top: 40px;
   margin-left: 50px;
   font-size: 30px;
   padding:20px;
@@ -85,7 +86,11 @@ body{
 
 
 .two{
-    display:block;
+    gap:0px;
+    padding:0px;
+   display:flex;
+   flex-direction:column;
+   
 }
 
 
@@ -105,7 +110,8 @@ body{
     width:45%;
     margin-left:20px;
     height:150px;
-    position:relative;
+    gap:0px;
+    padding:0px;
 }
 
 .text{
